@@ -85,7 +85,7 @@ def clean_date_column(df: pd.DataFrame) -> pd.DataFrame:
     Rows with unparseable dates become NaT (Not a Time) so we can drop them later.
     """
     working_df = df.copy()
-    working_df["date"] = pd.to_datetime(working_df["date"], errors="coerce")
+    working_df["date"] = pd.to_datetime(working_df["date"], errors="coerce", dayfirst=True)
     return working_df
 
 
