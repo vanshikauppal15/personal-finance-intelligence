@@ -82,12 +82,20 @@ def clean_amount_column(df: pd.DataFrame) -> pd.DataFrame:
 def clean_date_column(df: pd.DataFrame) -> pd.DataFrame:
     """
     Converts the 'date' column to proper datetime objects.
-    Rows with unparseable dates become NaT (Not a Time) so we can drop them later.
+    ISO-style dates (2026-01-03) are read year-first; anything else
+    (05/01/2026) is read day-first, as Indian banks write them.
+    Unparseable rows become NaT so we can drop them later.
     """
     working_df = df.copy()
-    working_df["date"] = pd.to_datetime(working_df["date"], errors="coerce", dayfirst=True)
-    return working_df
+    date_text = working_df["date"].astype(str).str.strip()
 
+    looks_iso = date_text.str.match(r"^\d{4}-\d{2}-\d{2}")
+
+    iso_dates = pd.to_datetime(date_text.where(looks_iso), format="ISO8601", errors="coerce")
+    other_dates = pd.to_datetime(date_text.where(~looks_iso), errors="coerce", dayfirst=True)
+
+    working_df["date"] = iso_dates.fillna(other_dates)
+    return working_df
 
 def clean_description_column(df: pd.DataFrame) -> pd.DataFrame:
     """
