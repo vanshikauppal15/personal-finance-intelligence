@@ -66,7 +66,7 @@ def clean_amount_column(df: pd.DataFrame) -> pd.DataFrame:
     """
     working_df = df.copy()
 
-    if working_df["amount"].dtype == object:
+    if not pd.api.types.is_numeric_dtype(working_df["amount"]):
         working_df["amount"] = (
             working_df["amount"]
             .astype(str)
@@ -96,6 +96,7 @@ def clean_description_column(df: pd.DataFrame) -> pd.DataFrame:
     working_df = df.copy()
     working_df["description"] = (
         working_df["description"]
+        .fillna("Unknown")
         .astype(str)
         .str.strip()
         .replace("", "Unknown")
