@@ -26,6 +26,19 @@ def _find_matching_column(df: pd.DataFrame, aliases: list[str]) -> str | None:
             return normalized_map[alias]
     return None
 
+def _to_number(series: pd.Series) -> pd.Series:
+    """
+    Converts a column to numbers, stripping ₹ symbols and commas first.
+    Anything still unreadable becomes NaN.
+    """
+    if not pd.api.types.is_numeric_dtype(series):
+        series = (
+            series.astype(str)
+            .str.replace("₹", "", regex=False)
+            .str.replace(",", "", regex=False)
+            .str.strip()
+        )
+    return pd.to_numeric(series, errors="coerce")
 
 def map_columns(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -49,8 +62,8 @@ def map_columns(df: pd.DataFrame) -> pd.DataFrame:
     elif debit_col and credit_col:
         working_df = working_df.rename(columns=rename_map)
         # Debit = money out (should be negative), Credit = money in (positive)
-        working_df["debit_clean"] = pd.to_numeric(working_df[debit_col], errors="coerce").fillna(0)
-        working_df["credit_clean"] = pd.to_numeric(working_df[credit_col], errors="coerce").fillna(0)
+        working_df["debit_clean"] = _to_number(working_df[debit_col]).fillna(0)
+        working_df["credit_clean"] = _to_number(working_df[credit_col]).fillna(0)
         working_df["amount"] = working_df["credit_clean"] - working_df["debit_clean"]
         working_df = working_df.drop(columns=[debit_col, credit_col, "debit_clean", "credit_clean"])
     else:
