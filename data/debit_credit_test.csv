@@ -3,3 +3,4 @@ Txn Date,Narration,Debit,Credit
 13/01/2026,Salary Credit,,55000.00
 15/01/2026,Uber Ride,220.50,
 20/01/2026,Refund Amazon,,"1,200.00"
+25/01/2026,Empty Row,,
