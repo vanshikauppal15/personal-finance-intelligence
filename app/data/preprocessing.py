@@ -135,6 +135,7 @@ def drop_invalid_rows(df: pd.DataFrame) -> pd.DataFrame:
     before_count = len(working_df)
 
     working_df = working_df.dropna(subset=["date", "amount"])
+    working_df = working_df[working_df["amount"] != 0]
     working_df = working_df.drop_duplicates()
 
     after_count = len(working_df)
