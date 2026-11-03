@@ -1,0 +1,485 @@
+Date,Description,Amount,Transaction Type,Category
+2025-11-01,Salary Credit,55000.0,Credit,Income
+2025-11-01,IRCTC Ticket,-1192.63,Debit,Travel
+2025-11-03,Hotstar,-165.24,Debit,Entertainment
+2025-11-04,Swiggy Order,-349.83,Debit,Food
+2025-11-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2025-11-07,BigBasket Order,-1461.25,Debit,Groceries
+2025-11-08,McDonalds,-430.34,Debit,Food
+2025-11-10,UPI/Rahul Sharma,-939.87,Debit,Other
+2025-11-13,Uber Ride,-1071.98,Debit,Travel
+2025-11-14,Netflix Subscription,-547.24,Debit,Entertainment
+2025-11-14,Reliance Fresh,-319.2,Debit,Groceries
+2025-11-15,Gift Shop,-2353.96,Debit,Other
+2025-11-16,Skillshare,-1409.14,Debit,Education
+2025-11-17,Gift Shop,-2637.9,Debit,Other
+2025-11-17,Airtel Postpaid,-1025.47,Debit,Bills
+2025-11-18,Decathlon,-3436.56,Debit,Shopping
+2025-11-18,Reliance Fresh,-1036.25,Debit,Groceries
+2025-11-19,IRCTC Ticket,-793.76,Debit,Travel
+2025-11-19,Reliance Fresh,-1346.05,Debit,Groceries
+2025-11-20,BookMyShow,-662.33,Debit,Entertainment
+2025-11-20,Amazon Books,-3248.5,Debit,Education
+2025-11-23,DMart Groceries,-1662.32,Debit,Groceries
+2025-11-24,Skillshare,-2951.52,Debit,Education
+2025-11-25,Netflix Subscription,-853.71,Debit,Entertainment
+2025-11-25,Spotify Premium,-596.52,Debit,Entertainment
+2025-11-26,Electricity Bill BESCOM,-424.61,Debit,Bills
+2025-11-27,Dr Lal Pathlabs,-339.37,Debit,Healthcare
+2025-11-28,UPI/Priya Verma,-2661.81,Debit,Other
+2025-11-29,PVR Cinemas,-867.03,Debit,Entertainment
+2025-11-29,UPI/Priya Verma,-2148.55,Debit,Other
+2025-12-01,Salary Credit,55000.0,Credit,Income
+2025-12-02,Airtel Postpaid,-904.7,Debit,Bills
+2025-12-03,Myntra Fashion,-313.1,Debit,Shopping
+2025-12-04,Hotstar,-561.75,Debit,Entertainment
+2025-12-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2025-12-05,ATM Withdrawal,-1424.27,Debit,Other
+2025-12-05,Gift Shop,-1254.4,Debit,Other
+2025-12-05,Apollo Pharmacy,-1281.58,Debit,Healthcare
+2025-12-06,Airtel Postpaid,-1579.3,Debit,Bills
+2025-12-07,Blinkit,-1401.45,Debit,Groceries
+2025-12-09,ATM Withdrawal,-2851.95,Debit,Other
+2025-12-10,Redbus Booking,-498.93,Debit,Travel
+2025-12-10,BigBasket Order,-1428.14,Debit,Groceries
+2025-12-11,PVR Cinemas,-215.82,Debit,Entertainment
+2025-12-12,College Fee Payment,-2090.19,Debit,Education
+2025-12-12,BigBasket Order,-404.38,Debit,Groceries
+2025-12-13,Ajio Retail,-2952.34,Debit,Shopping
+2025-12-16,UPI/Priya Verma,-525.15,Debit,Other
+2025-12-16,ATM Withdrawal,-2298.61,Debit,Other
+2025-12-16,Amazon Pay,-2527.83,Debit,Shopping
+2025-12-17,Spotify Premium,-397.44,Debit,Entertainment
+2025-12-18,UPI/Priya Verma,-1945.68,Debit,Other
+2025-12-19,Jio Recharge,-1354.75,Debit,Bills
+2025-12-19,Jio Recharge,-948.81,Debit,Bills
+2025-12-20,Swiggy Order,-538.76,Debit,Food
+2025-12-21,ACT Fibernet Broadband,-1541.3,Debit,Bills
+2025-12-22,BookMyShow,-182.82,Debit,Entertainment
+2025-12-24,Spotify Premium,-496.47,Debit,Entertainment
+2025-12-25,Netflix Subscription,-771.03,Debit,Entertainment
+2025-12-25,Zepto,-1764.61,Debit,Groceries
+2025-12-25,Chai Point,-601.88,Debit,Food
+2025-12-26,Coursera Subscription,-1905.52,Debit,Education
+2025-12-26,Netflix Subscription,-744.64,Debit,Entertainment
+2025-12-27,Dr Lal Pathlabs,-1093.26,Debit,Healthcare
+2025-12-27,UPI/BLINKIT/paytm,-517.71,Debit,Groceries
+2025-12-27,Uber Ride,-323.0,Debit,Travel
+2025-12-28,Metro Card Recharge,-1498.13,Debit,Travel
+2025-12-28,Skillshare,-876.88,Debit,Education
+2025-12-28,UPI/Rahul Sharma,-162.05,Debit,Other
+2025-12-29,Reliance Fresh,-1698.99,Debit,Groceries
+2025-12-29,IRCTC Ticket,-1776.6,Debit,Travel
+2025-12-31,Dominos Pizza,-232.77,Debit,Food
+2025-12-31,UPI/Rahul Sharma,-2314.67,Debit,Other
+2026-01-01,Salary Credit,55000.0,Credit,Income
+2026-01-01,Gift Shop,-2519.17,Debit,Other
+2026-01-03,Gift Shop,-2498.71,Debit,Other
+2026-01-03,Amazon Books,-3315.67,Debit,Education
+2026-01-04,Metro Card Recharge,-324.2,Debit,Travel
+2026-01-04,ATM Withdrawal,-2631.14,Debit,Other
+2026-01-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-01-05,Cafe Coffee Day,-543.56,Debit,Food
+2026-01-05,Ola Cabs,-883.88,Debit,Travel
+2026-01-06,ATM Withdrawal,-1045.35,Debit,Other
+2026-01-06,Gift Shop,-2374.39,Debit,Other
+2026-01-08,Jio Recharge,-623.84,Debit,Bills
+2026-01-09,Gift Shop,-1729.02,Debit,Other
+2026-01-09,Zepto,-851.23,Debit,Groceries
+2026-01-10,UPI/Rahul Sharma,-2108.92,Debit,Other
+2026-01-10,Amazon Books,-2273.16,Debit,Education
+2026-01-10,Amazon Books,-3783.55,Debit,Education
+2026-01-11,Tata Sky DTH,-435.13,Debit,Bills
+2026-01-11,Decathlon,-3156.82,Debit,Shopping
+2026-01-13,UPI/BLINKIT/paytm,-681.28,Debit,Groceries
+2026-01-15,BigBasket Order,-2079.01,Debit,Groceries
+2026-01-15,Spotify Premium,-317.42,Debit,Entertainment
+2026-01-17,Zepto,-1969.87,Debit,Groceries
+2026-01-19,Jio Recharge,-1203.54,Debit,Bills
+2026-01-19,Gift Shop,-1083.44,Debit,Other
+2026-01-21,Netflix Subscription,-383.62,Debit,Entertainment
+2026-01-22,Chai Point,-295.69,Debit,Food
+2026-01-23,ATM Withdrawal,-427.26,Debit,Other
+2026-01-23,Airtel Postpaid,-363.48,Debit,Bills
+2026-01-24,Rapido Bike,-1375.05,Debit,Travel
+2026-01-25,Ajio Retail,-777.98,Debit,Shopping
+2026-01-25,Gift Shop,-2131.21,Debit,Other
+2026-01-28,UPI/SWIGGY/okicici,-166.94,Debit,Food
+2026-01-28,Apollo Pharmacy,-781.97,Debit,Healthcare
+2026-01-29,Airtel Postpaid,-607.01,Debit,Bills
+2026-02-01,Salary Credit,55000.0,Credit,Income
+2026-02-01,1mg Medicines,-1611.0,Debit,Healthcare
+2026-02-01,McDonalds,-496.05,Debit,Food
+2026-02-01,BigBasket Order,-723.79,Debit,Groceries
+2026-02-03,Decathlon,-2730.39,Debit,Shopping
+2026-02-03,Ajio Retail,-1900.28,Debit,Shopping
+2026-02-03,Rapido Bike,-663.78,Debit,Travel
+2026-02-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-02-05,Swiggy Order,-508.53,Debit,Food
+2026-02-06,ACT Fibernet Broadband,-890.93,Debit,Bills
+2026-02-07,Dr Lal Pathlabs,-1432.88,Debit,Healthcare
+2026-02-07,1mg Medicines,-1766.19,Debit,Healthcare
+2026-02-07,UPI/BLINKIT/paytm,-1837.84,Debit,Groceries
+2026-02-08,Cafe Coffee Day,-188.8,Debit,Food
+2026-02-08,Spotify Premium,-769.18,Debit,Entertainment
+2026-02-08,IRCTC Ticket,-1781.62,Debit,Travel
+2026-02-10,Ajio Retail,-822.39,Debit,Shopping
+2026-02-10,UPI/BLINKIT/paytm,-1882.54,Debit,Groceries
+2026-02-11,Decathlon,-1075.08,Debit,Shopping
+2026-02-11,Amazon Pay,-1770.25,Debit,Shopping
+2026-02-13,Myntra Fashion,-3377.72,Debit,Shopping
+2026-02-14,UPI/Priya Verma,-808.89,Debit,Other
+2026-02-14,Flipkart Order,-1441.07,Debit,Shopping
+2026-02-14,Dominos Pizza,-322.26,Debit,Food
+2026-02-15,UPI/Rahul Sharma,-819.72,Debit,Other
+2026-02-16,Blinkit,-1834.09,Debit,Groceries
+2026-02-16,IRCTC Ticket,-1081.03,Debit,Travel
+2026-02-17,Myntra Fashion,-2314.94,Debit,Shopping
+2026-02-19,Coursera Subscription,-1351.45,Debit,Education
+2026-02-19,1mg Medicines,-1843.59,Debit,Healthcare
+2026-02-19,Redbus Booking,-1613.47,Debit,Travel
+2026-02-20,Uber Ride,-1495.25,Debit,Travel
+2026-02-20,Gift Shop,-2228.17,Debit,Other
+2026-02-21,Metro Card Recharge,-1369.99,Debit,Travel
+2026-02-21,Cafe Coffee Day,-483.83,Debit,Food
+2026-02-22,Airtel Postpaid,-292.07,Debit,Bills
+2026-02-22,Redbus Booking,-687.63,Debit,Travel
+2026-02-24,ATM Withdrawal,-1920.52,Debit,Other
+2026-02-24,UPI/Rahul Sharma,-1518.95,Debit,Other
+2026-02-26,ATM Withdrawal,-2011.97,Debit,Other
+2026-02-26,UPI/BLINKIT/paytm,-1673.58,Debit,Groceries
+2026-02-27,Blinkit,-669.57,Debit,Groceries
+2026-02-28,Tata Sky DTH,-916.83,Debit,Bills
+2026-02-28,Apollo Pharmacy,-1275.67,Debit,Healthcare
+2026-03-01,Airtel Postpaid,-1059.6,Debit,Bills
+2026-03-01,Salary Credit,55000.0,Credit,Income
+2026-03-01,McDonalds,-455.38,Debit,Food
+2026-03-02,Decathlon,-2116.84,Debit,Shopping
+2026-03-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-03-05,UPI/BLINKIT/paytm,-635.39,Debit,Groceries
+2026-03-06,UPI/Priya Verma,-1447.52,Debit,Other
+2026-03-07,Reliance Fresh,-598.5,Debit,Groceries
+2026-03-08,Udemy Course,-1371.48,Debit,Education
+2026-03-08,Reliance Fresh,-2136.22,Debit,Groceries
+2026-03-08,Skillshare,-1731.34,Debit,Education
+2026-03-09,Airtel Postpaid,-1034.99,Debit,Bills
+2026-03-09,Redbus Booking,-971.87,Debit,Travel
+2026-03-09,Spotify Premium,-590.63,Debit,Entertainment
+2026-03-10,Amazon Pay,-2550.68,Debit,Shopping
+2026-03-10,Tata Sky DTH,-1461.9,Debit,Bills
+2026-03-11,Zomato Order,-121.9,Debit,Food
+2026-03-12,College Fee Payment,-1417.22,Debit,Education
+2026-03-14,Amazon Pay,-28500.0,Debit,Shopping
+2026-03-14,Netflix Subscription,-775.38,Debit,Entertainment
+2026-03-16,Apollo Pharmacy,-2358.72,Debit,Healthcare
+2026-03-16,Airtel Postpaid,-1467.11,Debit,Bills
+2026-03-17,Netflix Subscription,-426.46,Debit,Entertainment
+2026-03-18,Blinkit,-2050.83,Debit,Groceries
+2026-03-18,Amazon Pay,-1198.04,Debit,Shopping
+2026-03-18,Cafe Coffee Day,-470.85,Debit,Food
+2026-03-19,Ola Cabs,-1749.61,Debit,Travel
+2026-03-19,1mg Medicines,-596.15,Debit,Healthcare
+2026-03-20,Apollo Pharmacy,-2058.11,Debit,Healthcare
+2026-03-21,UPI/Rahul Sharma,-2186.76,Debit,Other
+2026-03-21,UPI/SWIGGY/okicici,-337.77,Debit,Food
+2026-03-22,Redbus Booking,-1572.89,Debit,Travel
+2026-03-22,Udemy Course,-3674.05,Debit,Education
+2026-03-23,IRCTC Ticket,-781.87,Debit,Travel
+2026-03-24,Myntra Fashion,-1599.87,Debit,Shopping
+2026-03-25,Amazon Books,-2774.84,Debit,Education
+2026-03-27,BigBasket Order,-1201.21,Debit,Groceries
+2026-03-27,Amazon Books,-1114.09,Debit,Education
+2026-03-28,College Fee Payment,-816.51,Debit,Education
+2026-03-28,Jio Recharge,-372.46,Debit,Bills
+2026-03-28,Hotstar,-191.05,Debit,Entertainment
+2026-03-29,Decathlon,-946.85,Debit,Shopping
+2026-03-31,Dr Lal Pathlabs,-1902.73,Debit,Healthcare
+2026-03-31,Tata Sky DTH,-614.82,Debit,Bills
+2026-04-01,Salary Credit,55000.0,Credit,Income
+2026-04-01,Skillshare,-2424.84,Debit,Education
+2026-04-01,Spotify Premium,-655.67,Debit,Entertainment
+2026-04-02,Airtel Postpaid,-615.88,Debit,Bills
+2026-04-03,Dr Lal Pathlabs,-1164.82,Debit,Healthcare
+2026-04-04,Zomato Order,-137.09,Debit,Food
+2026-04-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-04-05,Amazon Books,-2112.35,Debit,Education
+2026-04-05,Zepto,-2060.48,Debit,Groceries
+2026-04-06,Gift Shop,-2919.5,Debit,Other
+2026-04-06,Airtel Postpaid,-552.13,Debit,Bills
+2026-04-06,Metro Card Recharge,-1751.08,Debit,Travel
+2026-04-08,Udemy Course,-2340.55,Debit,Education
+2026-04-08,Swiggy Order,-534.62,Debit,Food
+2026-04-09,UPI/SWIGGY/okicici,-498.96,Debit,Food
+2026-04-10,Decathlon,-2336.13,Debit,Shopping
+2026-04-10,DMart Groceries,-340.7,Debit,Groceries
+2026-04-10,UPI/Rahul Sharma,-1225.44,Debit,Other
+2026-04-11,Swiggy Order,-404.86,Debit,Food
+2026-04-12,Tata Sky DTH,-960.47,Debit,Bills
+2026-04-12,UPI/Rahul Sharma,-184.91,Debit,Other
+2026-04-12,Myntra Fashion,-2362.64,Debit,Shopping
+2026-04-13,Amazon Pay,-369.72,Debit,Shopping
+2026-04-14,Apollo Pharmacy,-754.55,Debit,Healthcare
+2026-04-15,Spotify Premium,-504.5,Debit,Entertainment
+2026-04-15,PVR Cinemas,-402.61,Debit,Entertainment
+2026-04-16,Cafe Coffee Day,-274.82,Debit,Food
+2026-04-17,BigBasket Order,-1191.39,Debit,Groceries
+2026-04-17,Electricity Bill BESCOM,-1283.91,Debit,Bills
+2026-04-19,Myntra Fashion,-648.83,Debit,Shopping
+2026-04-20,Ola Cabs,-903.99,Debit,Travel
+2026-04-20,McDonalds,-197.58,Debit,Food
+2026-04-21,Airtel Postpaid,-1565.06,Debit,Bills
+2026-04-25,Netflix Subscription,-898.07,Debit,Entertainment
+2026-04-26,Gift Shop,-192.49,Debit,Other
+2026-04-26,1mg Medicines,-2464.71,Debit,Healthcare
+2026-04-26,Spotify Premium,-264.7,Debit,Entertainment
+2026-04-27,DMart Groceries,-356.48,Debit,Groceries
+2026-04-29,Reliance Fresh,-2128.54,Debit,Groceries
+2026-04-30,BookMyShow,-761.17,Debit,Entertainment
+2026-05-01,Salary Credit,55000.0,Credit,Income
+2026-05-01,UPI/SWIGGY/okicici,-370.94,Debit,Food
+2026-05-02,Coursera Subscription,-1496.24,Debit,Education
+2026-05-03,Udemy Course,-2637.15,Debit,Education
+2026-05-03,Tata Sky DTH,-304.88,Debit,Bills
+2026-05-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-05-06,Dominos Pizza,-515.61,Debit,Food
+2026-05-06,Flipkart Order,-2691.32,Debit,Shopping
+2026-05-06,BookMyShow,-332.41,Debit,Entertainment
+2026-05-07,Myntra Fashion,-312.07,Debit,Shopping
+2026-05-07,DMart Groceries,-1852.04,Debit,Groceries
+2026-05-09,College Fee Payment,-3222.26,Debit,Education
+2026-05-09,Dr Lal Pathlabs,-461.86,Debit,Healthcare
+2026-05-10,Cafe Coffee Day,-613.46,Debit,Food
+2026-05-11,Metro Card Recharge,-470.89,Debit,Travel
+2026-05-12,Skillshare,-3200.18,Debit,Education
+2026-05-12,Reliance Fresh,-594.62,Debit,Groceries
+2026-05-13,Tata Sky DTH,-337.39,Debit,Bills
+2026-05-13,Chai Point,-412.88,Debit,Food
+2026-05-14,Apollo Pharmacy,-2471.39,Debit,Healthcare
+2026-05-15,BigBasket Order,-392.85,Debit,Groceries
+2026-05-16,Coursera Subscription,-1166.53,Debit,Education
+2026-05-17,ACT Fibernet Broadband,-1393.43,Debit,Bills
+2026-05-18,Blinkit,-787.56,Debit,Groceries
+2026-05-18,Myntra Fashion,-1112.98,Debit,Shopping
+2026-05-19,Coursera Subscription,-987.22,Debit,Education
+2026-05-20,Decathlon,-902.4,Debit,Shopping
+2026-05-22,ACT Fibernet Broadband,-960.52,Debit,Bills
+2026-05-23,UPI/BLINKIT/paytm,-1127.83,Debit,Groceries
+2026-05-23,Swiggy Order,-122.38,Debit,Food
+2026-05-24,Tata Sky DTH,-1484.41,Debit,Bills
+2026-05-24,Dominos Pizza,-243.43,Debit,Food
+2026-05-26,IRCTC Ticket,-1109.29,Debit,Travel
+2026-05-26,Airtel Postpaid,-752.52,Debit,Bills
+2026-05-27,Swiggy Order,-457.85,Debit,Food
+2026-05-27,Spotify Premium,-149.21,Debit,Entertainment
+2026-05-28,Zomato Order,-649.93,Debit,Food
+2026-05-30,Airtel Postpaid,-1355.42,Debit,Bills
+2026-05-30,1mg Medicines,-585.09,Debit,Healthcare
+2026-05-31,Airtel Postpaid,-1323.63,Debit,Bills
+2026-06-01,Salary Credit,55000.0,Credit,Income
+2026-06-01,Zepto,-402.78,Debit,Groceries
+2026-06-02,UPI/Rahul Sharma,-1953.63,Debit,Other
+2026-06-05,Apollo Pharmacy,-884.05,Debit,Healthcare
+2026-06-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-06-05,1mg Medicines,-1719.36,Debit,Healthcare
+2026-06-06,PVR Cinemas,-444.83,Debit,Entertainment
+2026-06-07,Spotify Premium,-424.77,Debit,Entertainment
+2026-06-07,Practo Consultation,-2363.67,Debit,Healthcare
+2026-06-08,IRCTC Ticket,-257.56,Debit,Travel
+2026-06-10,PVR Cinemas,-722.98,Debit,Entertainment
+2026-06-14,Apollo Pharmacy,-1496.23,Debit,Healthcare
+2026-06-14,Hotstar,-253.91,Debit,Entertainment
+2026-06-15,Metro Card Recharge,-358.91,Debit,Travel
+2026-06-17,Electricity Bill BESCOM,-420.98,Debit,Bills
+2026-06-18,Redbus Booking,-1427.34,Debit,Travel
+2026-06-18,Skillshare,-497.49,Debit,Education
+2026-06-18,Apollo Pharmacy,-2274.92,Debit,Healthcare
+2026-06-19,Practo Consultation,-2098.59,Debit,Healthcare
+2026-06-21,Practo Consultation,-1051.4,Debit,Healthcare
+2026-06-23,Airtel Postpaid,-1443.21,Debit,Bills
+2026-06-24,UPI/SWIGGY/okicici,-564.25,Debit,Food
+2026-06-24,Zepto,-1399.04,Debit,Groceries
+2026-06-25,Ajio Retail,-1286.28,Debit,Shopping
+2026-06-26,1mg Medicines,-1199.96,Debit,Healthcare
+2026-06-27,Swiggy Order,-448.01,Debit,Food
+2026-06-28,Tata Sky DTH,-1280.81,Debit,Bills
+2026-06-29,Coursera Subscription,-3298.96,Debit,Education
+2026-06-29,Apollo Pharmacy,-307.73,Debit,Healthcare
+2026-06-30,Netflix Subscription,-745.78,Debit,Entertainment
+2026-07-01,Swiggy Order,-457.31,Debit,Food
+2026-07-01,Salary Credit,55000.0,Credit,Income
+2026-07-03,ATM Withdrawal,-257.37,Debit,Other
+2026-07-03,Gift Shop,-1992.96,Debit,Other
+2026-07-04,Cafe Coffee Day,-155.18,Debit,Food
+2026-07-04,BigBasket Order,-463.23,Debit,Groceries
+2026-07-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-07-05,Flipkart Order,-2495.63,Debit,Shopping
+2026-07-05,Airtel Postpaid,-1374.6,Debit,Bills
+2026-07-06,Flipkart Order,-1336.28,Debit,Shopping
+2026-07-06,Ajio Retail,-759.43,Debit,Shopping
+2026-07-07,Coursera Subscription,-2489.98,Debit,Education
+2026-07-08,Jio Recharge,-794.68,Debit,Bills
+2026-07-08,Electricity Bill BESCOM,-752.56,Debit,Bills
+2026-07-09,Myntra Fashion,-3165.32,Debit,Shopping
+2026-07-09,Indian Oil Fuel,-1425.67,Debit,Travel
+2026-07-11,PVR Cinemas,-553.04,Debit,Entertainment
+2026-07-12,Blinkit,-2185.91,Debit,Groceries
+2026-07-13,1mg Medicines,-772.17,Debit,Healthcare
+2026-07-13,Hotstar,-234.03,Debit,Entertainment
+2026-07-14,Zepto,-660.09,Debit,Groceries
+2026-07-15,Dominos Pizza,-554.51,Debit,Food
+2026-07-15,Myntra Fashion,-2345.56,Debit,Shopping
+2026-07-16,Dr Lal Pathlabs,-1354.79,Debit,Healthcare
+2026-07-16,Jio Recharge,-642.81,Debit,Bills
+2026-07-16,Netflix Subscription,-702.75,Debit,Entertainment
+2026-07-17,IRCTC Ticket,-455.43,Debit,Travel
+2026-07-17,Swiggy Order,-148.83,Debit,Food
+2026-07-18,Amazon Pay,-1973.88,Debit,Shopping
+2026-07-19,1mg Medicines,-1534.37,Debit,Healthcare
+2026-07-20,Coursera Subscription,-798.57,Debit,Education
+2026-07-21,Jio Recharge,-858.65,Debit,Bills
+2026-07-21,UPI/BLINKIT/paytm,-489.38,Debit,Groceries
+2026-07-21,Ajio Retail,-2897.03,Debit,Shopping
+2026-07-22,Amazon Books,-3767.48,Debit,Education
+2026-07-22,Apollo Pharmacy,-19800.0,Debit,Healthcare
+2026-07-22,Hotstar,-623.57,Debit,Entertainment
+2026-07-22,UPI/SWIGGY/okicici,-555.07,Debit,Food
+2026-07-23,Jio Recharge,-1469.73,Debit,Bills
+2026-07-23,Swiggy Order,-401.71,Debit,Food
+2026-07-24,Jio Recharge,-328.81,Debit,Bills
+2026-07-25,McDonalds,-411.99,Debit,Food
+2026-07-25,Jio Recharge,-807.79,Debit,Bills
+2026-07-26,Gift Shop,-2458.8,Debit,Other
+2026-07-28,Amazon Pay,-3481.0,Debit,Shopping
+2026-07-29,Amazon Books,-323.49,Debit,Education
+2026-07-29,Dr Lal Pathlabs,-339.12,Debit,Healthcare
+2026-07-30,Ola Cabs,-1794.1,Debit,Travel
+2026-07-30,Flipkart Order,-2360.86,Debit,Shopping
+2026-08-01,Amazon Pay,-1151.16,Debit,Shopping
+2026-08-01,Gift Shop,-2088.63,Debit,Other
+2026-08-01,Salary Credit,55000.0,Credit,Income
+2026-08-02,Myntra Fashion,-2354.41,Debit,Shopping
+2026-08-02,Airtel Postpaid,-1438.06,Debit,Bills
+2026-08-02,Zomato Order,-258.0,Debit,Food
+2026-08-03,Jio Recharge,-1257.3,Debit,Bills
+2026-08-04,1mg Medicines,-1562.89,Debit,Healthcare
+2026-08-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-08-05,Gift Shop,-1469.21,Debit,Other
+2026-08-06,Cafe Coffee Day,-134.05,Debit,Food
+2026-08-07,Reliance Fresh,-2021.58,Debit,Groceries
+2026-08-07,ACT Fibernet Broadband,-1444.42,Debit,Bills
+2026-08-07,Tata Sky DTH,-1090.54,Debit,Bills
+2026-08-11,UPI/SWIGGY/okicici,-155.95,Debit,Food
+2026-08-11,Swiggy Order,-193.35,Debit,Food
+2026-08-11,Spotify Premium,-666.58,Debit,Entertainment
+2026-08-13,Spotify Premium,-757.7,Debit,Entertainment
+2026-08-13,ATM Withdrawal,-2651.17,Debit,Other
+2026-08-14,Apollo Pharmacy,-729.46,Debit,Healthcare
+2026-08-14,Airtel Postpaid,-295.71,Debit,Bills
+2026-08-15,UPI/BLINKIT/paytm,-1464.52,Debit,Groceries
+2026-08-15,Udemy Course,-790.82,Debit,Education
+2026-08-15,Electricity Bill BESCOM,-680.84,Debit,Bills
+2026-08-16,Dominos Pizza,-256.05,Debit,Food
+2026-08-17,BookMyShow,-720.01,Debit,Entertainment
+2026-08-18,Cafe Coffee Day,-338.85,Debit,Food
+2026-08-18,Skillshare,-2587.62,Debit,Education
+2026-08-19,Blinkit,-1137.88,Debit,Groceries
+2026-08-21,Reliance Fresh,-1839.62,Debit,Groceries
+2026-08-24,Swiggy Order,-304.34,Debit,Food
+2026-08-26,IRCTC Ticket,-1091.05,Debit,Travel
+2026-08-26,UPI/Priya Verma,-1776.22,Debit,Other
+2026-08-28,Tata Sky DTH,-473.82,Debit,Bills
+2026-08-28,Zepto,-1775.83,Debit,Groceries
+2026-08-29,Zepto,-2057.01,Debit,Groceries
+2026-08-29,UPI/BLINKIT/paytm,-853.29,Debit,Groceries
+2026-08-30,Zepto,-1976.9,Debit,Groceries
+2026-08-30,Dominos Pizza,-229.24,Debit,Food
+2026-08-31,UPI/Rahul Sharma,-1199.98,Debit,Other
+2026-09-01,Tata Sky DTH,-421.29,Debit,Bills
+2026-09-01,Dominos Pizza,-428.24,Debit,Food
+2026-09-01,Salary Credit,55000.0,Credit,Income
+2026-09-02,Amazon Books,-3045.35,Debit,Education
+2026-09-04,Decathlon,-1039.28,Debit,Shopping
+2026-09-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-09-05,ACT Fibernet Broadband,-508.62,Debit,Bills
+2026-09-06,Redbus Booking,-331.42,Debit,Travel
+2026-09-07,Hotstar,-527.3,Debit,Entertainment
+2026-09-09,Electricity Bill BESCOM,-1566.45,Debit,Bills
+2026-09-10,BigBasket Order,-968.47,Debit,Groceries
+2026-09-10,BigBasket Order,-2124.77,Debit,Groceries
+2026-09-11,Myntra Fashion,-1691.75,Debit,Shopping
+2026-09-11,Airtel Postpaid,-1111.27,Debit,Bills
+2026-09-11,Blinkit,-612.89,Debit,Groceries
+2026-09-12,Swiggy Order,-331.48,Debit,Food
+2026-09-13,ACT Fibernet Broadband,-1574.19,Debit,Bills
+2026-09-13,Ajio Retail,-370.78,Debit,Shopping
+2026-09-14,Apollo Pharmacy,-1891.22,Debit,Healthcare
+2026-09-15,Dr Lal Pathlabs,-2138.08,Debit,Healthcare
+2026-09-15,Jio Recharge,-1116.08,Debit,Bills
+2026-09-15,College Fee Payment,-1458.15,Debit,Education
+2026-09-16,Zepto,-684.79,Debit,Groceries
+2026-09-16,Practo Consultation,-737.64,Debit,Healthcare
+2026-09-17,Udemy Course,-2599.8,Debit,Education
+2026-09-18,Redbus Booking,-630.81,Debit,Travel
+2026-09-20,DMart Groceries,-702.45,Debit,Groceries
+2026-09-20,Jio Recharge,-1216.89,Debit,Bills
+2026-09-21,ACT Fibernet Broadband,-720.08,Debit,Bills
+2026-09-21,Amazon Books,-1058.43,Debit,Education
+2026-09-21,Amazon Books,-359.59,Debit,Education
+2026-09-22,Hotstar,-387.42,Debit,Entertainment
+2026-09-22,Coursera Subscription,-3964.03,Debit,Education
+2026-09-24,UPI/BLINKIT/paytm,-2168.94,Debit,Groceries
+2026-09-25,Dominos Pizza,-265.41,Debit,Food
+2026-09-26,Swiggy Order,-341.85,Debit,Food
+2026-09-27,Hotstar,-326.82,Debit,Entertainment
+2026-09-28,Practo Consultation,-2486.44,Debit,Healthcare
+2026-09-29,Coursera Subscription,-908.77,Debit,Education
+2026-09-29,UPI/BLINKIT/paytm,-586.34,Debit,Groceries
+2026-09-29,UPI/Rahul Sharma,-2462.45,Debit,Other
+2026-10-01,Salary Credit,55000.0,Credit,Income
+2026-10-01,Dr Lal Pathlabs,-2490.93,Debit,Healthcare
+2026-10-01,UPI/Rahul Sharma,-2361.56,Debit,Other
+2026-10-02,Electricity Bill BESCOM,-1200.67,Debit,Bills
+2026-10-03,Practo Consultation,-1281.69,Debit,Healthcare
+2026-10-03,Myntra Fashion,-1083.9,Debit,Shopping
+2026-10-04,College Fee Payment,-1885.43,Debit,Education
+2026-10-05,NEFT Rent Payment,-15000.0,Debit,Rent
+2026-10-05,Spotify Premium,-844.41,Debit,Entertainment
+2026-10-05,Apollo Pharmacy,-350.41,Debit,Healthcare
+2026-10-06,Spotify Premium,-533.91,Debit,Entertainment
+2026-10-07,UPI/SWIGGY/okicici,-126.08,Debit,Food
+2026-10-08,Myntra Fashion,-2246.24,Debit,Shopping
+2026-10-08,Indian Oil Fuel,-466.54,Debit,Travel
+2026-10-08,Skillshare,-3204.08,Debit,Education
+2026-10-09,Practo Consultation,-1582.36,Debit,Healthcare
+2026-10-10,UPI/BLINKIT/paytm,-2003.29,Debit,Groceries
+2026-10-10,UPI/Priya Verma,-672.37,Debit,Other
+2026-10-11,ATM Withdrawal,-2251.54,Debit,Other
+2026-10-11,Udemy Course,-2353.74,Debit,Education
+2026-10-12,Jio Recharge,-888.88,Debit,Bills
+2026-10-13,College Fee Payment,-3650.21,Debit,Education
+2026-10-14,Tata Sky DTH,-472.23,Debit,Bills
+2026-10-14,Zomato Order,-565.61,Debit,Food
+2026-10-15,Skillshare,-3410.09,Debit,Education
+2026-10-16,Apollo Pharmacy,-574.22,Debit,Healthcare
+2026-10-17,Swiggy Order,-443.13,Debit,Food
+2026-10-18,Netflix Subscription,-518.29,Debit,Entertainment
+2026-10-18,Coursera Subscription,-425.42,Debit,Education
+2026-10-19,Rapido Bike,-224.37,Debit,Travel
+2026-10-19,BookMyShow,-490.14,Debit,Entertainment
+2026-10-20,Electricity Bill BESCOM,-837.51,Debit,Bills
+2026-10-21,ATM Withdrawal,-2497.5,Debit,Other
+2026-10-22,College Fee Payment,-1534.77,Debit,Education
+2026-10-23,UPI/Priya Verma,-2927.49,Debit,Other
+2026-10-23,Udemy Course,-1524.32,Debit,Education
+2026-10-23,BookMyShow,-219.51,Debit,Entertainment
+2026-10-24,DMart Groceries,-997.76,Debit,Groceries
+2026-10-24,Gift Shop,-1681.66,Debit,Other
+2026-10-24,Chai Point,-279.22,Debit,Food
+2026-10-27,Cafe Coffee Day,-385.45,Debit,Food
+2026-10-27,Gift Shop,-1888.43,Debit,Other
+2026-10-27,BigBasket Order,-278.95,Debit,Groceries
+2026-10-28,Uber Ride,-1214.7,Debit,Travel
+2026-10-28,Chai Point,-530.5,Debit,Food
+2026-10-29,Dominos Pizza,-582.12,Debit,Food
+2026-10-29,Indian Oil Fuel,-598.26,Debit,Travel
+2026-10-29,Myntra Fashion,-891.28,Debit,Shopping
