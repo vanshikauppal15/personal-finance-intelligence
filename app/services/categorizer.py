@@ -1,6 +1,14 @@
 import re
+from pathlib import Path
 
+import joblib
 import pandas as pd
+
+# Project root = two folders above this file (app/services/categorizer.py)
+MODEL_PATH = Path(__file__).resolve().parents[2] / "models" / "category_model.joblib"
+
+# Model predictions below this confidence get flagged for the user to review
+CONFIDENCE_THRESHOLD = 0.5
 
 # Order matters: the FIRST category whose keywords match wins.
 # "Education" comes before "Shopping" so "Amazon Books" is Education,
@@ -42,4 +50,45 @@ def add_rule_categories(df: pd.DataFrame) -> pd.DataFrame:
     """Add a 'category' column to a cleaned transactions DataFrame."""
     result = df.copy()
     result["category"] = result["description"].apply(categorize_by_rules)
+    return result
+
+_model = None
+
+
+def _load_model():
+    """Load the saved model once, then reuse it."""
+    global _model
+    if _model is None and MODEL_PATH.exists():
+        _model = joblib.load(MODEL_PATH)
+    return _model
+
+
+def categorize_transactions(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Rules first, then the ML model for whatever the rules missed.
+    Adds: category, category_source, confidence, needs_review.
+    """
+    result = add_rule_categories(df)
+    result["category_source"] = "rules"
+    result["confidence"] = 1.0
+    result["needs_review"] = False
+
+    unknown = result["category"] == "Uncategorized"
+    if not unknown.any():
+        return result
+
+    model = _load_model()
+    if model is None:
+        # No saved model found: be honest and flag these for review
+        result.loc[unknown, "category"] = "Other"
+        result.loc[unknown, "category_source"] = "fallback"
+        result.loc[unknown, "needs_review"] = True
+        return result
+
+    probs = model.predict_proba(result.loc[unknown, "description"])
+    best = probs.max(axis=1)
+    result.loc[unknown, "category"] = model.classes_[probs.argmax(axis=1)]
+    result.loc[unknown, "category_source"] = "model"
+    result.loc[unknown, "confidence"] = best.round(2)
+    result.loc[unknown, "needs_review"] = best < CONFIDENCE_THRESHOLD
     return result
